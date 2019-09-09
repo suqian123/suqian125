@@ -1,0 +1,17 @@
+package decorator;
+
+public class BlueBorderDecorator extends ComponentDecorator {
+    public BlueBorderDecorator(Component component) {
+        super(component);
+    }
+
+
+    public void display() {
+        this.setBlueBorder();
+        super.display();
+    }
+
+    public void setBlueBorder() {
+        System.out.println("为红色按钮增加蓝色边框！");
+    }
+}
