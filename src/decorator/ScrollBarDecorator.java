@@ -3,8 +3,10 @@ package decorator;
 
 public class ScrollBarDecorator extends ComponentDecorator {
 	public ScrollBarDecorator(Component component) {
-		super(component);
-	}
+		super(component);}
+
+
+
 
 	public void display() {
 		this.setScrollBar();
