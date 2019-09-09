@@ -13,6 +13,7 @@ public class Client {
 		componentGB =new RedButtonDecorator( componentBB );
 		componentWB=new BlueBorderDecorator( componentGB );
 		componentWB.display();
+		((BlueBorderDecorator) componentWB).addBehavior();
 
 	}
 
