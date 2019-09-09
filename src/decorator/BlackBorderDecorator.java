@@ -6,6 +6,7 @@ public class BlackBorderDecorator extends ComponentDecorator {
 		super(component);
 	}
 
+
 	public void display() {
 		this.setBlackBorder();
 		super.display();
