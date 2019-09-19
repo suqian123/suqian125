@@ -9,7 +9,7 @@ public class BlueBorderDecorator extends ComponentDecorator {
     public void display() {
         this.setBlueBorder();
         super.display();
-        addBehavior();
+
 
 
     }
